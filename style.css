@@ -1,0 +1,66 @@
+*{box-sizing: border-box;}
+
+
+body {
+    margin: 0px;
+    border: 1px solid grey;
+}
+
+.page_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 600px;
+    background-color: black;
+    color: white;
+    padding: 30px 25px;
+    flex-flow:row wrap;
+}
+
+.name {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.navigation {
+    text-align: center;
+}
+
+ul {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+   text-align: center;
+   text-decoration: none;
+   color: white;
+} 
+
+.btn {
+    text-align: center;
+    display: inline-block;
+}
+
+.btn>a {  
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}   
+
+     
+
